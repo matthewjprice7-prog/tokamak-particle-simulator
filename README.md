@@ -18,14 +18,34 @@ The simulator uses Python and numerical integration to evolve particle trajector
 
 The model is simplified and is intended as an exploratory computational tool, not a validated prediction of behavior in an actual fusion reactor.
 
+
 ## How to Run
 
-1. Install Python and the dependencies used by the project.
-2. Download or clone this repository.
-3. Install the required packages.
-4. Run the main simulation script.
+### Requirements
 
-See the project files for the implementation and the dependency list.
+- Python 3
+- The packages listed in `requirements.txt`
+
+### Installation
+
+1. Download or clone this repository.
+2. Open a terminal in the project folder.
+3. Install the dependencies:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+### Run the Simulation
+
+Run the main script:
+
+```bash
+python simulator.py
+```
+
+The simulation calculates particle trajectories and magnetic field lines, then displays an interactive 3D visualization and scientific plots. The computation may take some time to complete.
+
 
 ## Current Status
 
