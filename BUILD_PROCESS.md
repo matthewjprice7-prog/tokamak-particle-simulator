@@ -1,7 +1,7 @@
 # Building the Tokamak Particle Simulator
 ## A Retrospective on the Development Process
 
-*Admittedly, the documentation for this project is very poor. Many old screenshots of results before the final version are lost. This document reconstructs the project's development process from memory. The exact order of some implementations may be uncertain, but the scientific motivations, major features, and challenges reflect my experience building the simulator.*
+*Admittedly, the documentation for this project is very poor. Many old screenshots of results before the final version are lost, and I failed to document progress during the actual building of the simulator. This document reconstructs the project's development process from memory. The exact order of some implementations may be uncertain, but the scientific motivations, major features, and challenges reflect my experience building the simulator.*
 
 ## 1. The Original Vision
 
